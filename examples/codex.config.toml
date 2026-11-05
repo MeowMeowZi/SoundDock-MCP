@@ -1,0 +1,8 @@
+# Replace both absolute paths with your actual installation directory.
+# Merge this table into the existing config; preserve other MCP servers.
+[mcp_servers.sounddock]
+command = "node"
+args = ["C:/Tools/SoundDock-MCP/server.mjs"]
+env = { AUDIO_MCP_CONFIG_FILE = "C:/Tools/SoundDock-MCP/config.local.json" }
+startup_timeout_sec = 15
+tool_timeout_sec = 60

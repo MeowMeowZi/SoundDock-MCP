@@ -1,0 +1,12 @@
+{
+  "dataDir": "./state",
+  "outputDir": "./output",
+  "seedAudio": {
+    "apiKeyFile": ""
+  },
+  "narration": {
+    "apiKeyFile": "",
+    "resourceId": "seed-icl-2.0",
+    "voices": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sounddock": {
+      "command": "node",
+      "args": ["C:/Tools/SoundDock-MCP/server.mjs"],
+      "env": {
+        "AUDIO_MCP_CONFIG_FILE": "C:/Tools/SoundDock-MCP/config.local.json"
+      }
+    }
+  }
+}
